@@ -1,0 +1,74 @@
+# = is assignment
+# Variable = A container for a value (string, integer, float, boolean)
+# A varibale behaves as if it was the value it contains
+
+
+
+# STRINGS
+# Strings are a sequence of characters
+first_name = "Aubrielle"
+# Don't put the variable name in quotes, or you're printing first_name
+# instead of the value it contains
+print(first_name)
+# f-string: the f means format
+# Insert your variable in curly braces to add it to our string of text
+# {} are called place holders
+print(f"Hello {first_name}")
+
+food = "sushi"
+print(f"You like {food}")
+
+email = "aubs123@fake.com"
+print(f"Your email is: {email}")
+
+
+
+
+# Integers
+# Integers are whole numbers
+# Don't use quotations, because than they would be strings
+age = 14
+print(f"You are {age} years old")
+
+quantity = 3
+print(f"You are buying {quantity} items")
+
+num_of_students = 30
+print(f"Your class has {num_of_students} students")
+
+
+# FLOAT
+# Floats are numbers with decimal points
+price = 10.99
+print(f"The price is ${price}")
+
+gpa = 4.0
+print(f"Your gpa is :{gpa}")
+
+distance = 5.5
+print(f"You ran {distance} kilometers")
+
+#BOOLEAN
+# Booleans are True or False values
+is_student = True
+print(f"Are you a student?: {is_student}")
+
+if is_student:
+    print("You are a student")
+else: 
+    print("You are NOT a student")
+
+
+for_sale = True
+
+if for_sale:
+    print("That item is for sale")
+else:
+    print("That item is NOT available")
+
+is_online = True
+
+if is_online: 
+    print("You are online")
+else: 
+    print("You are NOT online")
