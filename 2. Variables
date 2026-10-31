@@ -43,7 +43,7 @@ price = 10.99
 print(f"The price is ${price}")
 
 gpa = 4.0
-print(f"Your gpa is :{gpa}")
+print(f"Your gpa is : {gpa}")
 
 distance = 5.5
 print(f"You ran {distance} kilometers")
