@@ -23,7 +23,6 @@ print(f"Your email is: {email}")
 
 
 
-
 # Integers
 # Integers are whole numbers
 # Don't use quotations, because than they would be strings
@@ -37,6 +36,7 @@ num_of_students = 30
 print(f"Your class has {num_of_students} students")
 
 
+
 # FLOAT
 # Floats are numbers with decimal points
 price = 10.99
@@ -47,6 +47,8 @@ print(f"Your gpa is :{gpa}")
 
 distance = 5.5
 print(f"You ran {distance} kilometers")
+
+
 
 #BOOLEAN
 # Booleans are True or False values
