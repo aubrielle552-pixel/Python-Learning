@@ -1,0 +1,37 @@
+# Typecasting = the process of converting a variable from one data type to another 
+#                  str(), int(), float(), bool()
+
+name = "Aubrielle"
+age = 14
+gpa = 4.0
+is_student = True
+
+print(type(name))
+print(type(age))
+print(type(gpa))
+print(type(is_student))
+
+gpa = int(gpa)
+print(gpa)
+
+age = float(age)
+print(age)
+
+# The result appears the same, but it is now a string and not an integer
+age = int(age)
+age = str(age)
+print(age)
+print(type(age))
+
+
+age += "1"
+# age = age + 1
+print(age)
+
+# Anything in the quotation marks will give us True
+name = bool(name)
+print(name)
+# Nothing in the quotation marks gives us False
+empty = ""
+empty = bool(empty)
+print(empty)
