@@ -1,0 +1,28 @@
+x = 3.14
+y = -4
+z = 5
+
+# Round Function
+result1 = round(x)
+print(result1)
+
+# Absolute Value Function
+result2 = abs(y)
+print(result2)
+
+# Power Function
+# Coordinate 1: Base
+# Coordinate 2: Power Raised
+# 5^3
+result3 = pow(5,3)
+print(result3)
+
+# Maximum Value
+# Selects the highest number
+result4 = max(x,y,z)
+print(result4)
+
+# Minimum Value
+# Selects the lowest number
+result5 = min(x,y,z)
+print(result5)
