@@ -1,0 +1,11 @@
+# Calculate the circumference of a circle
+import math
+
+radius = float(input("Enter the radius of a circle: "))
+
+circumference = 2 * math.pi * radius
+
+# You can put the round function in the placeholder
+# Put the variable name in parenthesis, alongside
+# ,2 which means how many decimal points to round by
+print(f"The circumference is: {round(circumference, 2)}cm")
