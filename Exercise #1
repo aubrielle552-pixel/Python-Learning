@@ -1,0 +1,8 @@
+# Exercise 1 Rectangle Area Calc
+
+length = float(input("Enter the length: "))
+width = float(input("Enter the width: "))
+
+# multiplication is done with an astriek *
+area = length * width
+print(f"The area of your rectangle: {area} cm^2 ")
