@@ -1,0 +1,33 @@
+# input() = A function bthat prompts the user to enter data
+#                   Returns the entered data as a string
+
+# input("What is your name?: ")
+# We can assign a variable
+
+name = input("What is your name?: ")
+print(f"Hello {name}!")
+
+print("HAPPY BIRTHDAY")
+# You use an f-string if you are inserting variables
+
+age = input("How old are you?: ")
+
+
+age = int(age)
+# type cast
+age += 1
+# age = age + 1
+
+print(f"You are {age} years old!")
+
+
+
+print("")
+print("")
+print("")
+print("")
+
+# instead of taking up lines to type cast:
+age = int(input("How old are you?: "))
+age += 1
+print(f"You are {age} years old!")
