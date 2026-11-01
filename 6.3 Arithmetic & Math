@@ -1,0 +1,28 @@
+# Import the math module to unlock advanced
+# functions and constants like pi
+
+import math
+
+# Pi Constant
+print(math.pi)
+
+# E Constant (Euler's Number)
+print(math.e)
+
+# Square Root Function
+x = 9
+result = math.sqrt(x)
+print(result)
+
+
+y = 9.34
+z = 9.86
+# Ceil Function
+# Always rounds a float up (decimal numbers)
+result2 = math.ceil(y)
+print(result2)
+
+# Floor Function
+# Always rounds a float down (decimal numbers)
+result3 = math.floor(z)
+print(result3)
