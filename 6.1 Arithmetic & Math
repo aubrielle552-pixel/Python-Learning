@@ -1,0 +1,28 @@
+"""
+Mathematical Operators:
+Addition, Subtraction, Multiplication, Division,
+Exponents, Modulus
+"""
+
+friends = 5
+
+# friends = friends + 1
+# Augmented: friends += 1
+
+# friends = friends - 2
+# Augmented: frineds -= 2
+
+# friends = friends * 3
+# Augmented: friends *= 3
+
+# friends = friends / 2
+# Augmented: friends /= 2
+
+# friends = friends ** 2
+# Augmented: frinds **= 2
+
+# print(friends)
+
+# It tells you what's left over after division.
+# remainder = friends % 3
+# print(remainder)
