@@ -1,0 +1,31 @@
+name = input("Enter your name: ")
+
+if name == "":
+    print("YOU DID NOT TYPE IN YOUR NAME!")
+else:
+    print(f"Hello {name}")
+
+ 
+print("")
+print("")
+print("")
+ 
+ # Booleans with If Statements  
+for_sale = False
+
+if for_sale:
+    print("This item is for sale!")
+else:
+    print("This item is NOT for sale!")
+
+   
+print("")
+print("")
+print("")
+   
+online = True
+
+if online:
+    print("The user is online")
+else:
+    print("The user is offline")
