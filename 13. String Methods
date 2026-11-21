@@ -1,0 +1,51 @@
+name = input("Enter your full name: ")
+
+# length function
+# returns the amount of characters (including spaces)
+result = len(name)
+print(result)
+
+# find method
+# returns the first occurance of a given character
+# this finds the first occurance of a selected character and states 
+# # its position
+# the first character is counted as 0
+result1 = name.find(" ")
+print(result1)
+
+# this is the reverse of the find method
+# this finds the last occurance of a selected character, and states
+# its position
+result2 = name.rfind("e")
+
+
+# if a letter is not located, the return value will be -1 
+
+# We can capitalize the first letter in a string by using
+# the capitalize function
+name = name.capitalize()
+print(name)
+
+# this makes all characters uppercase in a string
+name = name.upper()
+print(name)
+# this makes all characters lowercase in a string
+name = name.lower()
+print(name)
+
+# the result is a boolean
+# This function will only return true if the string only contains digits
+result3 = name.isdigit()
+print(result3)
+
+# returns a true of false boolean
+# if a string only contains alphabetic numbers
+# a space will make the function return false
+name.isalpha()
+
+
+phone_number = input("Enter your phone #: ")
+print(result3)
+phone_number.count  (""_"")
+
+result4 = phone_number.countmethod("-")
